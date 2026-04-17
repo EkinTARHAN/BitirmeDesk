@@ -1,0 +1,58 @@
+{
+  "val_file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+  "test_file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+  "train_rows": 2318531,
+  "val_rows": 225745,
+  "test_rows": 286467,
+  "best_iteration": 43,
+  "val_attack_categories": [
+    "BENIGN",
+    "DDoS"
+  ],
+  "test_attack_categories": [
+    "BENIGN",
+    "PortScan"
+  ],
+  "val_pr_auc": 0.9964758010032202,
+  "val_roc_auc": 0.9962863609293238,
+  "test_pr_auc": 0.8073172331077825,
+  "test_roc_auc": 0.7521828948092099,
+  "selected_threshold_rule": "best_val_f1_from_threshold_grid_0.05_to_0.95_step_0.05",
+  "selected_threshold": 0.05,
+  "val_metrics_at_selected_threshold": {
+    "threshold": 0.05,
+    "precision": 0.9895414195449084,
+    "recall": 0.996945956712256,
+    "f1": 0.9932298880986102,
+    "fpr": 0.013805030802922696,
+    "fnr": 0.0030540432877439916,
+    "tn": 96369.0,
+    "fp": 1349.0,
+    "fn": 391.0,
+    "tp": 127636.0
+  },
+  "test_metrics_at_selected_threshold": {
+    "threshold": 0.05,
+    "precision": 0.5925500114968958,
+    "recall": 0.016214685710690242,
+    "f1": 0.031565602435095756,
+    "fpr": 0.013894007229274643,
+    "fnr": 0.9837853142893097,
+    "tn": 125765,
+    "fp": 1772,
+    "fn": 156353,
+    "tp": 2577
+  },
+  "test_metrics_at_0p5": {
+    "threshold": 0.5,
+    "precision": 0.19763313609467456,
+    "recall": 0.0010507770716667716,
+    "f1": 0.0020904396808011268,
+    "fpr": 0.0053161043461897334,
+    "fnr": 0.9989492229283332,
+    "tn": 126859,
+    "fp": 678,
+    "fn": 158763,
+    "tp": 167
+  }
+}

@@ -1,0 +1,8 @@
+model_key,display_name,variant,summary_path,summary_exists,model_name_in_summary,selection_rule,best_config_name,fit_time_seconds,val_pr_auc,val_roc_auc,val_f1_at_0p5,val_fpr_at_0p5,test_pr_auc,test_roc_auc,test_f1_at_0p5,test_fpr_at_0p5
+xgboost_tuned,XGBoost Tuned,tuned,models/binary/xgboost_tuned/binary_xgboost_tuned_best_summary.json,True,xgboost_tuned,best validation PR-AUC,xgb_cfg_2,4.284075699999903,0.9973108434448187,0.9943319449104558,0.9718676467525977,0.07535714285714286,0.9892409646276205,0.9853872790773656,0.8965869896526831,0.26197297297297295
+xgboost_baseline,XGBoost Baseline,baseline,models/binary/xgboost/binary_xgboost_summary.json,True,xgboost,,,2.578008699999941,0.9970201522418005,0.9937370918987903,0.9705998626745178,0.07982142857142857,0.989067876375929,0.9851901487762359,0.8981620970171739,0.2573783783783784
+lgbm_main,LightGBM Main,main,models/binary/lgbm/binary_lgbm_summary.json,True,,,,,0.9976333806599027,0.9950126160118874,,,0.9880596634735025,0.983763599962797,,
+logreg_baseline,Logistic Regression Baseline,baseline,models/binary/logreg/binary_logreg_summary.json,True,LogisticRegression,,,33.123560667037964,,,,,,,,
+rf_baseline,Random Forest Baseline,baseline,models/binary/rf/binary_rf_summary.json,True,RandomForestClassifier,,,44.45441913604736,,,,,,,,
+logreg_tuned,Logistic Regression Tuned,tuned,models/binary/logreg_tuned/binary_logreg_tuned_best_summary.json,True,LogisticRegression_Tuned,,,51.900784492492676,,,,,,,,
+rf_tuned,Random Forest Tuned,tuned,models/binary/rf_tuned/binary_rf_tuned_best_summary.json,True,RandomForestClassifier_Tuned,,,30.571669340133667,,,,,,,,

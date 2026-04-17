@@ -1,0 +1,14 @@
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+
+lightgbm>=4.3
+xgboost>=2.0
+
+pyyaml>=6.0
+tqdm>=4.66
+joblib>=1.4
+
+streamlit>=1.33
+shap>=0.45

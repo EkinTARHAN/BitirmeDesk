@@ -1,0 +1,61 @@
+{
+  "val_file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+  "test_file": "Tuesday-WorkingHours.pcap_ISCX.csv",
+  "train_rows": 2214468,
+  "val_rows": 170366,
+  "test_rows": 445909,
+  "best_iteration": 158,
+  "val_attack_categories": [
+    "BENIGN",
+    "Web Attack � Brute Force",
+    "Web Attack � Sql Injection",
+    "Web Attack � XSS"
+  ],
+  "test_attack_categories": [
+    "BENIGN",
+    "FTP-Patator",
+    "SSH-Patator"
+  ],
+  "val_pr_auc": 0.8533870898535417,
+  "val_roc_auc": 0.9924667556245339,
+  "test_pr_auc": 0.24863426343565065,
+  "test_roc_auc": 0.9307056314971305,
+  "selected_threshold_rule": "best_val_f1_from_threshold_grid_0.05_to_0.95_step_0.05",
+  "selected_threshold": 0.15,
+  "val_metrics_at_selected_threshold": {
+    "threshold": 0.15,
+    "precision": 0.9549689440993789,
+    "recall": 0.8463302752293578,
+    "f1": 0.8973735408560312,
+    "fpr": 0.0005172844350897221,
+    "fnr": 0.1536697247706422,
+    "tn": 168099.0,
+    "fp": 87.0,
+    "fn": 335.0,
+    "tp": 1845.0
+  },
+  "test_metrics_at_selected_threshold": {
+    "threshold": 0.15,
+    "precision": 0.04203262233375157,
+    "recall": 0.004842790025298157,
+    "f1": 0.008684943936742498,
+    "fpr": 0.003534116841096664,
+    "fnr": 0.9951572099747018,
+    "tn": 430547,
+    "fp": 1527,
+    "fn": 13768,
+    "tp": 67
+  },
+  "test_metrics_at_0p5": {
+    "threshold": 0.5,
+    "precision": 0.031825795644891124,
+    "recall": 0.0013733285146367907,
+    "f1": 0.002633037694013304,
+    "fpr": 0.0013377338141151748,
+    "fnr": 0.9986266714853632,
+    "tn": 431496,
+    "fp": 578,
+    "fn": 13816,
+    "tp": 19
+  }
+}

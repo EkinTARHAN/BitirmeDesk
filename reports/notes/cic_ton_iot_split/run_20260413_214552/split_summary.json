@@ -1,0 +1,119 @@
+{
+  "dataset_name": "CIC-ToN-IoT",
+  "split_type": "stratified_baseline_split",
+  "random_state": 42,
+  "train_size": 0.7,
+  "val_size": 0.15,
+  "test_size": 0.15,
+  "latest_prep_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\prep_20260413_214311",
+  "split_output_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\stratified_split_20260413_214552",
+  "report_output_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\notes\\cic_ton_iot_split\\run_20260413_214552",
+  "binary": {
+    "target_column": "target_binary",
+    "total_rows": 5351760,
+    "total_distribution": {
+      "1": 2836524,
+      "0": 2515236
+    },
+    "splits": {
+      "train": {
+        "saved_as": "parquet",
+        "path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\stratified_split_20260413_214552\\binary_train.parquet",
+        "row_count": 3746232,
+        "column_count": 81,
+        "target_distribution": {
+          "1": 1985567,
+          "0": 1760665
+        }
+      },
+      "val": {
+        "saved_as": "parquet",
+        "path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\stratified_split_20260413_214552\\binary_val.parquet",
+        "row_count": 802764,
+        "column_count": 81,
+        "target_distribution": {
+          "1": 425479,
+          "0": 377285
+        }
+      },
+      "test": {
+        "saved_as": "parquet",
+        "path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\stratified_split_20260413_214552\\binary_test.parquet",
+        "row_count": 802764,
+        "column_count": 81,
+        "target_distribution": {
+          "1": 425478,
+          "0": 377286
+        }
+      }
+    }
+  },
+  "attack_only_multiclass": {
+    "target_column": "target_attack",
+    "total_rows": 2836524,
+    "total_distribution": {
+      "xss": 2149308,
+      "password": 340208,
+      "injection": 277696,
+      "scanning": 36205,
+      "backdoor": 27145,
+      "ransomware": 5098,
+      "mitm": 517,
+      "ddos": 202,
+      "dos": 145
+    },
+    "splits": {
+      "train": {
+        "saved_as": "parquet",
+        "path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\stratified_split_20260413_214552\\attack_only_multiclass_train.parquet",
+        "row_count": 1985566,
+        "column_count": 80,
+        "target_distribution": {
+          "xss": 1504515,
+          "password": 238146,
+          "injection": 194387,
+          "scanning": 25343,
+          "backdoor": 19001,
+          "ransomware": 3569,
+          "mitm": 362,
+          "ddos": 141,
+          "dos": 102
+        }
+      },
+      "val": {
+        "saved_as": "parquet",
+        "path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\stratified_split_20260413_214552\\attack_only_multiclass_val.parquet",
+        "row_count": 425479,
+        "column_count": 80,
+        "target_distribution": {
+          "xss": 322397,
+          "password": 51031,
+          "injection": 41654,
+          "scanning": 5431,
+          "backdoor": 4072,
+          "ransomware": 764,
+          "mitm": 77,
+          "ddos": 31,
+          "dos": 22
+        }
+      },
+      "test": {
+        "saved_as": "parquet",
+        "path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\stratified_split_20260413_214552\\attack_only_multiclass_test.parquet",
+        "row_count": 425479,
+        "column_count": 80,
+        "target_distribution": {
+          "xss": 322396,
+          "password": 51031,
+          "injection": 41655,
+          "scanning": 5431,
+          "backdoor": 4072,
+          "ransomware": 765,
+          "mitm": 78,
+          "ddos": 30,
+          "dos": 21
+        }
+      }
+    }
+  }
+}

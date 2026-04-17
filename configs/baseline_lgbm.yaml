@@ -1,0 +1,31 @@
+seed: 42
+
+data:
+  cat_cols: [proto, service, state]
+  target_col: label
+  # Binary modelde leakage olmaması için attack_cat kesinlikle feature'dan düşer.
+  drop_feature_cols: [label, attack_cat, is_unknown_target]
+
+paths:
+  binary_train: data/processed/splits/binary_train.csv
+  binary_val: data/processed/splits/binary_val.csv
+  binary_test: data/processed/splits/binary_test.csv
+
+outputs:
+  model_dir: models/binary/lgbm
+  report_dir: reports/tables
+
+threshold:
+  fpr_targets: [0.005, 0.01, 0.02]   # %0.5, %1, %2
+
+lgbm:
+  n_estimators: 4000
+  learning_rate: 0.05
+  num_leaves: 64
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_lambda: 1.0
+  min_child_samples: 20
+  class_weight: balanced
+  random_state: 42
+  n_jobs: -1

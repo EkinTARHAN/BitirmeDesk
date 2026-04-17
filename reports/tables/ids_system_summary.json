@@ -1,0 +1,36 @@
+{
+  "binary_pr_auc_test": 0.9880596634735025,
+  "binary_roc_auc_test": 0.983763599962797,
+  "binary_operating_point": {
+    "binary_threshold": 0.9502581881638772,
+    "tn": 35909,
+    "fp": 1091,
+    "fn": 4817,
+    "tp": 40515,
+    "precision": 0.9737778205066577,
+    "recall": 0.8937395217506398,
+    "f1": 0.9320435252708827,
+    "fpr": 0.029486486486486486,
+    "fnr": 0.10626047824936027
+  },
+  "binary_thr_fpr_target": 0.005,
+  "binary_thr_used": 0.9502581881638772,
+  "anomaly_thr_fpr_target": 0.01,
+  "anomaly_thr_used": 0.04651241123806772,
+  "evaluated_modes": [
+    "anomaly_only",
+    "mc_conf_only",
+    "union_or",
+    "hybrid_and"
+  ],
+  "mc_conf_mins": [
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ]
+}

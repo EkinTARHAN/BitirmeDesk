@@ -1,0 +1,4 @@
+demo_case,ground_truth_label,ground_truth_attack_cat,is_unknown_target,final_decision,binary_prob,anomaly_score,unknown_pred,mc_pred,base_value,shap_csv,shap_png
+benign,0,Normal,0,benign,7.3907013237939994e-06,-0.16849355360499946,0,,2.5818880777900004,reports\figures\shap_demo\benign_shap_top10.csv,reports\figures\shap_demo\benign_shap_top10.png
+known_attack,1,Generic,0,attack:Generic,0.999995226053769,0.03175808882204467,0,Generic,2.5818880777900004,reports\figures\shap_demo\known_attack_shap_top10.csv,reports\figures\shap_demo\known_attack_shap_top10.png
+worms_found_as_unknown,1,Worms,1,unknown,0.9999228659492444,0.10408669100415968,1,Exploits,2.5818880777900004,reports\figures\shap_demo\worms_found_as_unknown_shap_top10.csv,reports\figures\shap_demo\worms_found_as_unknown_shap_top10.png

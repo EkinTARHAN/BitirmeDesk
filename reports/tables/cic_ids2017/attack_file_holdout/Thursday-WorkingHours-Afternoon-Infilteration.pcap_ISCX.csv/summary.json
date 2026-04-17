@@ -1,0 +1,53 @@
+{
+  "test_file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+  "train_rows": 2287926,
+  "val_rows": 254215,
+  "test_rows": 288602,
+  "test_attack_categories": [
+    "BENIGN",
+    "Infiltration"
+  ],
+  "best_iteration": 191,
+  "val_pr_auc": 0.9999918888717967,
+  "val_roc_auc": 0.999997795905084,
+  "test_pr_auc": 0.00019770965845498852,
+  "test_roc_auc": 0.6983746063869848,
+  "selected_threshold_rule": "best_val_f1_from_threshold_grid_0.05_to_0.95_step_0.05",
+  "selected_threshold": 0.55,
+  "val_metrics_at_selected_threshold": {
+    "threshold": 0.55,
+    "precision": 0.9991209185504126,
+    "recall": 0.9987446423127275,
+    "f1": 0.9989327449978027,
+    "fpr": 0.00024690860350509437,
+    "fnr": 0.0012553576872724665,
+    "tn": 198405.0,
+    "fp": 49.0,
+    "fn": 70.0,
+    "tp": 55691.0
+  },
+  "test_metrics_at_selected_threshold": {
+    "threshold": 0.55,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "fpr": 0.15646333940935522,
+    "fnr": 1.0,
+    "tn": 243416,
+    "fp": 45150,
+    "fn": 36,
+    "tp": 0
+  },
+  "test_metrics_at_0p5": {
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "fpr": 0.1566781949363404,
+    "fnr": 1.0,
+    "tn": 243354,
+    "fp": 45212,
+    "fn": 36,
+    "tp": 0
+  }
+}

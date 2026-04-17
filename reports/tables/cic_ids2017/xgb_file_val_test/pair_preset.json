@@ -1,0 +1,33 @@
+{
+  "preset": "cyclic_v1",
+  "pairs": [
+    {
+      "val_file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "test_file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv"
+    },
+    {
+      "val_file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "test_file": "Friday-WorkingHours-Morning.pcap_ISCX.csv"
+    },
+    {
+      "val_file": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "test_file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv"
+    },
+    {
+      "val_file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "test_file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv"
+    },
+    {
+      "val_file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "test_file": "Tuesday-WorkingHours.pcap_ISCX.csv"
+    },
+    {
+      "val_file": "Tuesday-WorkingHours.pcap_ISCX.csv",
+      "test_file": "Wednesday-workingHours.pcap_ISCX.csv"
+    },
+    {
+      "val_file": "Wednesday-workingHours.pcap_ISCX.csv",
+      "test_file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
+    }
+  ]
+}

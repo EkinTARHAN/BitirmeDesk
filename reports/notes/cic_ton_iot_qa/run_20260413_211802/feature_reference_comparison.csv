@@ -1,0 +1,160 @@
+﻿feature_name,status
+ACK Flag Cnt,dataset_only
+Active Max,dataset_only
+Active Mean,dataset_only
+Active Min,dataset_only
+Active Std,dataset_only
+Attack,dataset_only
+Bwd Blk Rate Avg,dataset_only
+Bwd Byts/b Avg,dataset_only
+Bwd Header Len,dataset_only
+Bwd IAT Max,dataset_only
+Bwd IAT Mean,dataset_only
+Bwd IAT Min,dataset_only
+Bwd IAT Std,dataset_only
+Bwd IAT Tot,dataset_only
+Bwd PSH Flags,dataset_only
+Bwd Pkt Len Max,dataset_only
+Bwd Pkt Len Mean,dataset_only
+Bwd Pkt Len Min,dataset_only
+Bwd Pkt Len Std,dataset_only
+Bwd Pkts/b Avg,dataset_only
+Bwd Pkts/s,dataset_only
+Bwd Seg Size Avg,dataset_only
+Bwd URG Flags,dataset_only
+CWE Flag Count,dataset_only
+Down/Up Ratio,dataset_only
+Dst IP,dataset_only
+Dst Port,dataset_only
+ECE Flag Cnt,dataset_only
+FIN Flag Cnt,dataset_only
+Flow Byts/s,dataset_only
+Flow Duration,dataset_only
+Flow IAT Max,dataset_only
+Flow IAT Mean,dataset_only
+Flow IAT Min,dataset_only
+Flow IAT Std,dataset_only
+Flow ID,dataset_only
+Flow Pkts/s,dataset_only
+Fwd Act Data Pkts,dataset_only
+Fwd Blk Rate Avg,dataset_only
+Fwd Byts/b Avg,dataset_only
+Fwd Header Len,dataset_only
+Fwd IAT Max,dataset_only
+Fwd IAT Mean,dataset_only
+Fwd IAT Min,dataset_only
+Fwd IAT Std,dataset_only
+Fwd IAT Tot,dataset_only
+Fwd PSH Flags,dataset_only
+Fwd Pkt Len Max,dataset_only
+Fwd Pkt Len Mean,dataset_only
+Fwd Pkt Len Min,dataset_only
+Fwd Pkt Len Std,dataset_only
+Fwd Pkts/b Avg,dataset_only
+Fwd Pkts/s,dataset_only
+Fwd Seg Size Avg,dataset_only
+Fwd Seg Size Min,dataset_only
+Fwd URG Flags,dataset_only
+Idle Max,dataset_only
+Idle Mean,dataset_only
+Idle Min,dataset_only
+Idle Std,dataset_only
+Init Bwd Win Byts,dataset_only
+Init Fwd Win Byts,dataset_only
+PSH Flag Cnt,dataset_only
+Pkt Len Max,dataset_only
+Pkt Len Mean,dataset_only
+Pkt Len Min,dataset_only
+Pkt Len Std,dataset_only
+Pkt Len Var,dataset_only
+Pkt Size Avg,dataset_only
+Protocol,dataset_only
+RST Flag Cnt,dataset_only
+SYN Flag Cnt,dataset_only
+Src IP,dataset_only
+Src Port,dataset_only
+Subflow Bwd Byts,dataset_only
+Subflow Bwd Pkts,dataset_only
+Subflow Fwd Byts,dataset_only
+Subflow Fwd Pkts,dataset_only
+Timestamp,dataset_only
+Tot Bwd Pkts,dataset_only
+Tot Fwd Pkts,dataset_only
+TotLen Bwd Pkts,dataset_only
+TotLen Fwd Pkts,dataset_only
+URG Flag Cnt,dataset_only
+Bw_pkt_l_avg,reference_only
+Bw_pkt_l_max,reference_only
+Bw_pkt_l_min,reference_only
+Bw_pkt_l_std,reference_only
+Fw_act_pkt,reference_only
+ack_cnt,reference_only
+atv_avg,reference_only
+atv_max,reference_only
+atv_min,reference_only
+atv_std,reference_only
+bw_blk_rate_avg,reference_only
+bw_byt_blk_avg,reference_only
+bw_hdr_len,reference_only
+bw_iat_avg,reference_only
+bw_iat_max,reference_only
+bw_iat_min,reference_only
+bw_iat_std,reference_only
+bw_iat_tot,reference_only
+bw_pkt_blk_avg,reference_only
+bw_pkt_s,reference_only
+bw_psh_flag,reference_only
+bw_seg_avg,reference_only
+bw_urg_flag,reference_only
+bw_win_byt,reference_only
+cwe_cnt,reference_only
+down_up_ratio,reference_only
+ece_cnt,reference_only
+fin_cnt,reference_only
+fl_byt_s,reference_only
+fl_dur,reference_only
+fl_iat_avg,reference_only
+fl_iat_max,reference_only
+fl_iat_min,reference_only
+fl_iat_std,reference_only
+fl_pkt_s,reference_only
+fw_blk_rate_avg,reference_only
+fw_byt_blk_avg,reference_only
+fw_hdr_len,reference_only
+fw_iat_avg,reference_only
+fw_iat_max,reference_only
+fw_iat_min,reference_only
+fw_iat_std,reference_only
+fw_iat_tot,reference_only
+fw_pkt_blk_avg,reference_only
+fw_pkt_l_avg,reference_only
+fw_pkt_l_max,reference_only
+fw_pkt_l_min,reference_only
+fw_pkt_l_std,reference_only
+fw_pkt_s,reference_only
+fw_psh_flag,reference_only
+fw_seg_avg,reference_only
+fw_seg_min,reference_only
+fw_urg_flag,reference_only
+fw_win_byt,reference_only
+idl_avg,reference_only
+idl_max,reference_only
+idl_min,reference_only
+idl_std,reference_only
+pkt_len_avg,reference_only
+pkt_len_max,reference_only
+pkt_len_min,reference_only
+pkt_len_std,reference_only
+pkt_len_va,reference_only
+pkt_size_avg,reference_only
+pst_cnt,reference_only
+rst_cnt,reference_only
+subfl_bw_byt,reference_only
+subfl_bw_pkt,reference_only
+subfl_fw_byt,reference_only
+subfl_fw_pk,reference_only
+syn_cnt,reference_only
+tot_bw_pk,reference_only
+tot_fw_pk,reference_only
+tot_l_fw_pkt,reference_only
+urg_cnt,reference_only

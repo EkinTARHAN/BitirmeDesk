@@ -1,0 +1,26 @@
+{
+  "hard_files": [
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv"
+  ],
+  "input_variants": [
+    "lgbm_best_val_f1",
+    "lgbm_target_fpr@0.001",
+    "lgbm_target_fpr@0.005",
+    "lgbm_target_fpr@0.010",
+    "lgbm_target_fpr@0.020",
+    "xgb_best_val_f1",
+    "xgb_target_fpr@0.001",
+    "xgb_target_fpr@0.005",
+    "xgb_target_fpr@0.010",
+    "xgb_target_fpr@0.020"
+  ],
+  "row_count_all_runs": 70,
+  "variant_count": 10,
+  "main_four_combo_names": [
+    "lightgbm_best_val_f1",
+    "lightgbm_target_fpr_best",
+    "xgboost_best_val_f1",
+    "xgboost_target_fpr_best"
+  ]
+}

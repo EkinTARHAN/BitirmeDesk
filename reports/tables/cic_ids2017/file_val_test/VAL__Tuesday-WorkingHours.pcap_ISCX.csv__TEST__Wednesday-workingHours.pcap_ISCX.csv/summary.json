@@ -1,0 +1,63 @@
+{
+  "val_file": "Tuesday-WorkingHours.pcap_ISCX.csv",
+  "test_file": "Wednesday-workingHours.pcap_ISCX.csv",
+  "train_rows": 1692131,
+  "val_rows": 445909,
+  "test_rows": 692703,
+  "best_iteration": 109,
+  "val_attack_categories": [
+    "BENIGN",
+    "FTP-Patator",
+    "SSH-Patator"
+  ],
+  "test_attack_categories": [
+    "BENIGN",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS Slowhttptest",
+    "DoS slowloris",
+    "Heartbleed"
+  ],
+  "val_pr_auc": 0.610524869254193,
+  "val_roc_auc": 0.9871531055532241,
+  "test_pr_auc": 0.9385826693461636,
+  "test_roc_auc": 0.9664761754907673,
+  "selected_threshold_rule": "best_val_f1_from_threshold_grid_0.05_to_0.95_step_0.05",
+  "selected_threshold": 0.9,
+  "val_metrics_at_selected_threshold": {
+    "threshold": 0.9,
+    "precision": 0.5,
+    "recall": 7.228044813877847e-05,
+    "f1": 0.0001445400014454,
+    "fpr": 2.3144183635210634e-06,
+    "fnr": 0.9999277195518612,
+    "tn": 432073.0,
+    "fp": 1.0,
+    "fn": 13834.0,
+    "tp": 1.0
+  },
+  "test_metrics_at_selected_threshold": {
+    "threshold": 0.9,
+    "precision": 0.9877408056042032,
+    "recall": 0.002232142857142857,
+    "f1": 0.004454219859976387,
+    "fpr": 1.5907970120286978e-05,
+    "fnr": 0.9977678571428571,
+    "tn": 440024,
+    "fp": 7,
+    "fn": 252108,
+    "tp": 564
+  },
+  "test_metrics_at_0p5": {
+    "threshold": 0.5,
+    "precision": 0.9981130380088058,
+    "recall": 0.0439621327254306,
+    "f1": 0.08421499539425552,
+    "fpr": 4.772391036086094e-05,
+    "fnr": 0.9560378672745694,
+    "tn": 440010,
+    "fp": 21,
+    "fn": 241564,
+    "tp": 11108
+  }
+}

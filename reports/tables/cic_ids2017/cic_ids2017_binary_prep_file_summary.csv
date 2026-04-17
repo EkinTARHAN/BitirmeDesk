@@ -1,0 +1,9 @@
+file_name,rows,original_column_count,cleaned_column_count,label_column_used,duplicate_column_renames,inf_values_replaced_with_nan,missing_binary_label_rows
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,225745,79,81,label,0,64,0
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,286467,79,81,label,0,727,0
+Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,79,81,label,0,216,0
+Monday-WorkingHours.pcap_ISCX.csv,529918,79,81,label,0,810,0
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,79,81,label,0,396,0
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,170366,79,81,label,0,250,0
+Tuesday-WorkingHours.pcap_ISCX.csv,445909,79,81,label,0,327,0
+Wednesday-workingHours.pcap_ISCX.csv,692703,79,81,label,0,1586,0

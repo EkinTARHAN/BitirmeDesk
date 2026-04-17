@@ -1,0 +1,120 @@
+{
+  "dataset_name": "cic_ids2017_binary",
+  "input_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ids2017\\cic_ids2017_binary.parquet",
+  "output_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ids2017\\splits\\binary",
+  "report_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ids2017",
+  "random_state": 42,
+  "requested_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "rows_before_drop_missing_binary_label": 2830743,
+  "rows_after_drop_missing_binary_label": 2830743,
+  "dropped_missing_binary_label_rows": 0,
+  "train": {
+    "split_name": "train",
+    "rows": 1981520,
+    "binary_label_distribution": {
+      "0": 1591168,
+      "1": 390352
+    },
+    "source_file_distribution": {
+      "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": 157800,
+      "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": 200614,
+      "Friday-WorkingHours-Morning.pcap_ISCX.csv": 134077,
+      "Monday-WorkingHours.pcap_ISCX.csv": 370972,
+      "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": 201801,
+      "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": 119438,
+      "Tuesday-WorkingHours.pcap_ISCX.csv": 312107,
+      "Wednesday-workingHours.pcap_ISCX.csv": 484711
+    },
+    "attack_category_distribution": {
+      "BENIGN": 1591168,
+      "Bot": 1369,
+      "DDoS": 89599,
+      "DoS GoldenEye": 7230,
+      "DoS Hulk": 161664,
+      "DoS Slowhttptest": 3889,
+      "DoS slowloris": 4049,
+      "FTP-Patator": 5562,
+      "Heartbleed": 7,
+      "Infiltration": 24,
+      "PortScan": 111316,
+      "SSH-Patator": 4103,
+      "Web Attack � Brute Force": 1053,
+      "Web Attack � Sql Injection": 15,
+      "Web Attack � XSS": 472
+    }
+  },
+  "val": {
+    "split_name": "val",
+    "rows": 424611,
+    "binary_label_distribution": {
+      "0": 340964,
+      "1": 83647
+    },
+    "source_file_distribution": {
+      "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": 34127,
+      "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": 42948,
+      "Friday-WorkingHours-Morning.pcap_ISCX.csv": 28372,
+      "Monday-WorkingHours.pcap_ISCX.csv": 79195,
+      "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": 43377,
+      "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": 25534,
+      "Tuesday-WorkingHours.pcap_ISCX.csv": 67246,
+      "Wednesday-workingHours.pcap_ISCX.csv": 103812
+    },
+    "attack_category_distribution": {
+      "BENIGN": 340964,
+      "Bot": 309,
+      "DDoS": 19236,
+      "DoS GoldenEye": 1506,
+      "DoS Hulk": 34627,
+      "DoS Slowhttptest": 831,
+      "DoS slowloris": 859,
+      "FTP-Patator": 1205,
+      "Heartbleed": 2,
+      "Infiltration": 6,
+      "PortScan": 23827,
+      "SSH-Patator": 912,
+      "Web Attack � Brute Force": 233,
+      "Web Attack � Sql Injection": 1,
+      "Web Attack � XSS": 93
+    }
+  },
+  "test": {
+    "split_name": "test",
+    "rows": 424612,
+    "binary_label_distribution": {
+      "0": 340965,
+      "1": 83647
+    },
+    "source_file_distribution": {
+      "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": 33818,
+      "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": 42905,
+      "Friday-WorkingHours-Morning.pcap_ISCX.csv": 28584,
+      "Monday-WorkingHours.pcap_ISCX.csv": 79751,
+      "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": 43424,
+      "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": 25394,
+      "Tuesday-WorkingHours.pcap_ISCX.csv": 66556,
+      "Wednesday-workingHours.pcap_ISCX.csv": 104180
+    },
+    "attack_category_distribution": {
+      "BENIGN": 340965,
+      "Bot": 288,
+      "DDoS": 19192,
+      "DoS GoldenEye": 1557,
+      "DoS Hulk": 34782,
+      "DoS Slowhttptest": 779,
+      "DoS slowloris": 888,
+      "FTP-Patator": 1171,
+      "Heartbleed": 2,
+      "Infiltration": 6,
+      "PortScan": 23787,
+      "SSH-Patator": 882,
+      "Web Attack � Brute Force": 221,
+      "Web Attack � Sql Injection": 5,
+      "Web Attack � XSS": 87
+    }
+  }
+}

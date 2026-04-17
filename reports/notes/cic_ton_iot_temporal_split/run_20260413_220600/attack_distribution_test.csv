@@ -1,0 +1,11 @@
+﻿attack_name,count
+benign,640820
+xss,102431
+backdoor,27145
+password,15364
+injection,11014
+ransomware,5098
+mitm,517
+ddos,202
+dos,145
+scanning,29

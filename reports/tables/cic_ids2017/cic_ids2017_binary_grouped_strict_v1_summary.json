@@ -1,0 +1,86 @@
+{
+  "dataset_name": "cic_ids2017_binary",
+  "split_type": "grouped_by_source_file",
+  "preset_name": "strict_v1",
+  "preset_description": "Harder file-based split. Entire source files are assigned to train/val/test. Ratios are not exact because CIC-IDS2017 has only 8 CSV files.",
+  "input_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ids2017\\cic_ids2017_binary.parquet",
+  "output_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ids2017\\splits\\binary_grouped",
+  "rows_before_drop_missing_binary_label": 2830743,
+  "rows_after_drop_missing_binary_label": 2830743,
+  "dropped_missing_binary_label_rows": 0,
+  "train_files": [
+    "Tuesday-WorkingHours.pcap_ISCX.csv",
+    "Wednesday-workingHours.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv"
+  ],
+  "val_files": [
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv"
+  ],
+  "test_files": [
+    "Monday-WorkingHours.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
+  ],
+  "train": {
+    "split_name": "train",
+    "rows": 1786478,
+    "binary_label_distribution": {
+      "0": 1356895,
+      "1": 429583
+    },
+    "source_file_distribution": {
+      "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": 286467,
+      "Friday-WorkingHours-Morning.pcap_ISCX.csv": 191033,
+      "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": 170366,
+      "Tuesday-WorkingHours.pcap_ISCX.csv": 445909,
+      "Wednesday-workingHours.pcap_ISCX.csv": 692703
+    },
+    "attack_category_distribution": {
+      "BENIGN": 1356895,
+      "Bot": 1966,
+      "DoS GoldenEye": 10293,
+      "DoS Hulk": 231073,
+      "DoS Slowhttptest": 5499,
+      "DoS slowloris": 5796,
+      "FTP-Patator": 7938,
+      "Heartbleed": 11,
+      "PortScan": 158930,
+      "SSH-Patator": 5897,
+      "Web Attack � Brute Force": 1507,
+      "Web Attack � Sql Injection": 21,
+      "Web Attack � XSS": 652
+    }
+  },
+  "val": {
+    "split_name": "val",
+    "rows": 288602,
+    "binary_label_distribution": {
+      "0": 288566,
+      "1": 36
+    },
+    "source_file_distribution": {
+      "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": 288602
+    },
+    "attack_category_distribution": {
+      "BENIGN": 288566,
+      "Infiltration": 36
+    }
+  },
+  "test": {
+    "split_name": "test",
+    "rows": 755663,
+    "binary_label_distribution": {
+      "0": 627636,
+      "1": 128027
+    },
+    "source_file_distribution": {
+      "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": 225745,
+      "Monday-WorkingHours.pcap_ISCX.csv": 529918
+    },
+    "attack_category_distribution": {
+      "BENIGN": 627636,
+      "DDoS": 128027
+    }
+  }
+}

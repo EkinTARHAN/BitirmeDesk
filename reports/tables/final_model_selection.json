@@ -1,0 +1,77 @@
+{
+  "binary": {
+    "default_target_fpr": 0.005,
+    "main_model": {
+      "model_key": "xgboost_tuned_v2",
+      "display_name": "XGBoost Tuned v2",
+      "selection_scheme": "operating_points_from_val_sweep",
+      "target_fpr_val_requested": 0.005,
+      "target_fpr_val_matched": 0.0051785714285714,
+      "selected_threshold_from_val": 0.94,
+      "val_f1": 0.9240084635123575,
+      "val_fpr": 0.0051785714285714,
+      "test_f1": 0.932448271460236,
+      "test_fpr": 0.0179459459459459,
+      "val_pr_auc": 0.9972485779954144,
+      "val_roc_auc": 0.9942079717167662,
+      "test_pr_auc": 0.98907244536216,
+      "test_roc_auc": 0.9851458163912612,
+      "abs_test_target_drift": 0.012945945945945898,
+      "family": "xgboost"
+    },
+    "backup_model": {
+      "model_key": "lgbm_main",
+      "display_name": "LightGBM Main",
+      "selection_scheme": "lgbm_main_split_table",
+      "target_fpr_val_requested": 0.005,
+      "target_fpr_val_matched": 0.005,
+      "selected_threshold_from_val": 0.9502581881638772,
+      "val_f1": 0.9300951315053162,
+      "val_fpr": 0.005,
+      "test_f1": 0.9320435252708827,
+      "test_fpr": 0.0294864864864864,
+      "val_pr_auc": 0.9976333806599028,
+      "val_roc_auc": 0.9950126160118874,
+      "test_pr_auc": 0.9880596634735024,
+      "test_roc_auc": 0.983763599962797,
+      "abs_test_target_drift": 0.024486486486486398,
+      "family": "lightgbm"
+    }
+  },
+  "multiclass": {
+    "main_model": {
+      "model_key": "multiclass_rf",
+      "display_name": "Multiclass Random Forest",
+      "source": "v2",
+      "fit_time_seconds": 45.05440735816956,
+      "val_macro_f1_known_only": 0.5729614091564963,
+      "val_weighted_f1_known_only": 0.7771530319106401,
+      "val_accuracy_known_only": NaN,
+      "test_macro_f1_known_only": 0.5395422735697082,
+      "test_weighted_f1_known_only": 0.7909177574655044,
+      "test_accuracy_known_only": NaN,
+      "n_val_rows_known_only": 23843.0,
+      "n_test_rows_known_only": 45288.0,
+      "val_removed_unknown_rows": NaN,
+      "test_removed_unknown_rows": 44.0,
+      "family": "random_forest"
+    },
+    "backup_model": {
+      "model_key": "multiclass_lgbm",
+      "display_name": "Multiclass LightGBM",
+      "source": "v2",
+      "fit_time_seconds": NaN,
+      "val_macro_f1_known_only": NaN,
+      "val_weighted_f1_known_only": NaN,
+      "val_accuracy_known_only": NaN,
+      "test_macro_f1_known_only": 0.5315063780909879,
+      "test_weighted_f1_known_only": 0.786532065344621,
+      "test_accuracy_known_only": NaN,
+      "n_val_rows_known_only": NaN,
+      "n_test_rows_known_only": NaN,
+      "val_removed_unknown_rows": NaN,
+      "test_removed_unknown_rows": NaN,
+      "family": "lightgbm"
+    }
+  }
+}

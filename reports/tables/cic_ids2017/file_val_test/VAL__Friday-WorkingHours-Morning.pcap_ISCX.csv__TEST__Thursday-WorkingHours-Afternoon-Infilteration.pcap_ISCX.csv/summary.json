@@ -1,0 +1,58 @@
+{
+  "val_file": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+  "test_file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+  "train_rows": 2351108,
+  "val_rows": 191033,
+  "test_rows": 288602,
+  "best_iteration": 5,
+  "val_attack_categories": [
+    "BENIGN",
+    "Bot"
+  ],
+  "test_attack_categories": [
+    "BENIGN",
+    "Infiltration"
+  ],
+  "val_pr_auc": 0.04955624410511908,
+  "val_roc_auc": 0.8482341186558328,
+  "test_pr_auc": 0.00018503143318036338,
+  "test_roc_auc": 0.5914902387052605,
+  "selected_threshold_rule": "best_val_f1_from_threshold_grid_0.05_to_0.95_step_0.05",
+  "selected_threshold": 0.05,
+  "val_metrics_at_selected_threshold": {
+    "threshold": 0.05,
+    "precision": 0.010291415619290908,
+    "recall": 1.0,
+    "f1": 0.0203731625552464,
+    "fpr": 1.0,
+    "fnr": 0.0,
+    "tn": 0.0,
+    "fp": 189067.0,
+    "fn": 0.0,
+    "tp": 1966.0
+  },
+  "test_metrics_at_selected_threshold": {
+    "threshold": 0.05,
+    "precision": 0.00012473926029618645,
+    "recall": 1.0,
+    "f1": 0.00024944740470762687,
+    "fpr": 1.0,
+    "fnr": 0.0,
+    "tn": 0,
+    "fp": 288566,
+    "fn": 0,
+    "tp": 36
+  },
+  "test_metrics_at_0p5": {
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "fpr": 0.0,
+    "fnr": 1.0,
+    "tn": 288566,
+    "fp": 0,
+    "fn": 36,
+    "tp": 0
+  }
+}

@@ -1,0 +1,27 @@
+seed: 42
+
+data:
+  cat_cols: [proto, service, state]
+  target_col: attack_cat
+  # Multi-class modelde: attack_cat target, label zaten 1 (attack-only), unknown flag feature olmayacak
+  drop_feature_cols: [label, attack_cat, is_unknown_target]
+
+paths:
+  train_csv: data/processed/splits/multiclass_train.csv
+  val_csv: data/processed/splits/multiclass_val.csv
+  test_csv: data/processed/splits/multiclass_test.csv
+
+outputs:
+  model_dir: models/multiclass/lgbm
+  report_dir: reports/tables
+
+lgbm:
+  n_estimators: 6000
+  learning_rate: 0.05
+  num_leaves: 64
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_lambda: 1.0
+  min_child_samples: 20
+  random_state: 42
+  n_jobs: -1

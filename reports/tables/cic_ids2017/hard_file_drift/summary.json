@@ -1,0 +1,9 @@
+{
+  "dataset": "CIC-IDS2017",
+  "hard_files": [
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv"
+  ],
+  "numeric_feature_count": 78,
+  "report_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ids2017\\hard_file_drift"
+}

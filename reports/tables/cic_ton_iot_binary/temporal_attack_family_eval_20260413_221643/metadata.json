@@ -1,0 +1,27 @@
+{
+  "split_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\cic_ton_iot\\splits\\temporal_binary_split_20260413_220600",
+  "model_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\models\\cic_ton_iot_binary\\lgbm_temporal_20260413_221152\\lgbm_binary_temporal.joblib",
+  "operating_points_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ton_iot_binary\\lgbm_temporal_20260413_221152\\operating_points.csv",
+  "output_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ton_iot_binary\\temporal_attack_family_eval_20260413_221643",
+  "train_attacks": [
+    "benign",
+    "injection",
+    "password",
+    "scanning",
+    "xss"
+  ],
+  "test_attacks": [
+    "backdoor",
+    "benign",
+    "ddos",
+    "dos",
+    "injection",
+    "mitm",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ],
+  "result_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ton_iot_binary\\temporal_attack_family_eval_20260413_221643\\attack_family_detection_by_threshold.csv",
+  "summary_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ton_iot_binary\\temporal_attack_family_eval_20260413_221643\\temporal_seen_unseen_summary.csv"
+}

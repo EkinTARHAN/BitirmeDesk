@@ -1,0 +1,6 @@
+model_key,display_name,n_threshold_rows,mean_abs_val_target_drift,mean_abs_test_target_drift,max_abs_test_target_drift,mean_test_minus_val_fpr,rows_with_test_drift_gt_0p01,rows_with_test_drift_gt_0p03,threshold_stability_label
+logreg_tuned,Logistic Regression Tuned,5,3.5714285714400114e-06,0.027599999999999958,0.09470270270270269,0.027603571428571394,3,1,moderate
+logreg_baseline,Logistic Regression Baseline,5,2.1428571428601125e-05,0.02799459459459456,0.09283783783783779,0.028016023166023158,3,2,moderate
+rf_tuned,Random Forest Tuned,5,0.00028928571428576055,0.04839459459459456,0.1351621621621621,0.04868388030888032,4,2,unstable
+rf_baseline,Random Forest Baseline,5,0.00012857142857148037,0.049427027027026976,0.1393513513513513,0.04955559845559846,4,2,unstable
+lgbm_main,LightGBM Main,3,0.0,0.05472072072072067,0.0895405405405405,0.05472072072072067,3,2,unstable

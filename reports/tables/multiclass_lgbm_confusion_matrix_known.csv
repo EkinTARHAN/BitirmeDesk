@@ -1,0 +1,9 @@
+,pred:Analysis,pred:Backdoor,pred:DoS,pred:Exploits,pred:Fuzzers,pred:Generic,pred:Reconnaissance,pred:Shellcode
+true:Analysis,54,54,33,470,66,0,0,0
+true:Backdoor,54,49,34,373,69,0,0,4
+true:DoS,270,561,419,2642,116,11,23,47
+true:Exploits,321,510,133,9640,244,16,184,84
+true:Fuzzers,135,100,79,1089,4454,4,8,193
+true:Generic,0,4,39,428,39,18341,0,20
+true:Reconnaissance,28,70,11,526,18,1,2820,22
+true:Shellcode,0,1,2,39,32,0,2,302

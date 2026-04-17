@@ -1,0 +1,21 @@
+seed: 42
+val_size: 0.2
+
+holdout_attack_cat: Worms
+
+target_label: label
+target_attack_cat: attack_cat
+
+categorical_cols:
+  - proto
+  - service
+  - state
+
+drop_cols:
+  - id   # varsa düşer, yoksa problem değil
+
+paths:
+  train_csv: data/raw/unsw_nb15/UNSW_NB15_training-set.csv
+  test_csv: data/raw/unsw_nb15/UNSW_NB15_testing-set.csv
+
+out_dir: data/processed/splits

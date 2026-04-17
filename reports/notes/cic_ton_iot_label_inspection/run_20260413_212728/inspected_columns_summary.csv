@@ -1,0 +1,7 @@
+﻿column_name,dtype,non_null_count,null_count,nunique
+Label,int64,5351760,0,2
+Attack,object,5351760,0,10
+Flow ID,object,5351760,0,1178337
+Src IP,object,5351760,0,142427
+Dst IP,object,5351760,0,1845
+Timestamp,object,5351760,0,144054

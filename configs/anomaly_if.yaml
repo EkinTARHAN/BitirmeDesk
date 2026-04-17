@@ -1,0 +1,29 @@
+seed: 42
+
+data:
+  cat_cols: [proto, service, state]
+  target_label: label
+  target_attack_cat: attack_cat
+  unknown_flag_col: is_unknown_target
+
+  # Anomali modelinde target/leakage kolonları feature'dan düşer
+  drop_feature_cols: [label, attack_cat, is_unknown_target]
+
+paths:
+  binary_train: data/processed/splits/binary_train.csv
+  binary_val: data/processed/splits/binary_val.csv
+  binary_test: data/processed/splits/binary_test.csv
+
+outputs:
+  model_dir: models/anomaly/iforest
+  report_dir: reports/tables
+
+threshold:
+  fpr_targets: [0.005, 0.01, 0.02]   # %0.5, %1, %2 (benign üzerinde)
+
+iforest:
+  n_estimators: 400
+  max_samples: 2048
+  contamination: "auto"
+  random_state: 42
+  n_jobs: -1

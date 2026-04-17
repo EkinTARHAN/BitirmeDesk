@@ -1,0 +1,3 @@
+source_file,rows,benign_0,attack_1,attack_ratio,top1_drift_feature,top1_abs_smd,top5_drift_features
+Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,189067,1966,0.010291415619290908,packet_length_variance,0.3618014604301162,"['packet_length_variance', 'bwd_packet_length_std', 'packet_length_std', 'max_packet_length', 'bwd_packet_length_max']"
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,288566,36,0.00012473926029618645,packet_length_std,0.42310916653569647,"['packet_length_std', 'max_packet_length', 'bwd_packet_length_std', 'bwd_packet_length_mean', 'avg_bwd_segment_size']"

@@ -1,0 +1,4 @@
+model_key,display_name,summary_path,summary_exists,model_name_in_summary,fit_time_seconds,known_class_count,val_macro_f1_known_only,val_weighted_f1_known_only,val_accuracy_known_only,test_macro_f1_known_only,test_weighted_f1_known_only,test_accuracy_known_only,n_val_rows_known_only,n_test_rows_known_only,val_removed_unknown_rows,test_removed_unknown_rows
+multiclass_rf,Multiclass Random Forest,models/multiclass/rf/multiclass_rf_summary.json,True,RandomForestClassifier,45.054407358169556,,0.5729614091564963,0.7771530319106401,,0.5395422735697082,0.7909177574655044,,23843.0,45288.0,,
+multiclass_xgboost,Multiclass XGBoost,models/multiclass/xgboost/multiclass_xgboost_summary.json,True,xgboost,17.51914240000042,8.0,0.6221594503831679,0.7925756776893668,0.8172629283227781,0.5287035660321829,0.7852780769825547,0.7959724430312666,23843.0,45288.0,0.0,44.0
+multiclass_lgbm,Multiclass LightGBM,models/multiclass/lgbm/multiclass_lgbm_summary.json,True,,,,,,,,,,,,,
