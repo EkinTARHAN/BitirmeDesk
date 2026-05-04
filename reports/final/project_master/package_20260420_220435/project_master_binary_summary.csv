@@ -1,0 +1,8 @@
+﻿dataset,benchmark_scope,split_type,model,selection_method,selected_threshold,val_pr_auc,val_roc_auc,test_pr_auc,test_roc_auc,test_f1,test_fpr,note
+UNSW-NB15,main_binary_final,official_binary_selection,XGBoost Tuned v2,target_fpr_val_requested_0.005,0.94,0.997249,0.994208,0.989072,0.985146,0.932448,0.017946,Official main binary model.
+UNSW-NB15,main_binary_backup,official_binary_backup,LightGBM Main,selected_operating_point,0.950258,,,0.98806,0.983764,0.932044,0.029486,Official backup binary model.
+CIC-IDS2017,binary_baseline,row_wise_stratified,LightGBM baseline,best_val_f1,0.4,0.999889,0.999968,0.999915,0.999979,0.998203,0.00068,Optimistic baseline later judged too easy.
+CIC-IDS2017,binary_generalization_check,grouped_split,LightGBM,best_val_f1,,0.000219,0.715913,0.878776,0.966141,0.771796,0.002309,Grouped benchmark exposed split sensitivity.
+CIC-IDS2017,binary_generalization_check,file_based_val_test,LightGBM,best_val_f1,,,,0.468943,0.834459,0.129533,,More honest cross-file benchmark.
+CIC-ToN-IoT,binary_benchmark,stratified_baseline,LightGBM,best_val_f1,0.52,0.9998763791456902,0.9998613592569688,0.9998808662358146,0.999866296159865,0.9946430685103606,0.0091469071208579,Stratified row-wise baseline; optimistic reference benchmark.
+CIC-ToN-IoT,binary_benchmark,temporal_binary,LightGBM,best_val_f1,0.52,0.9999999995124936,0.999999999228243,0.9840496858461276,0.9936413790699634,0.9500909019049878,0.0063746449861115,More realistic temporal benchmark with partial unseen-attack stress.

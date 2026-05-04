@@ -1,0 +1,10 @@
+{
+  "test_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\data\\processed\\splits\\multiclass_test.csv",
+  "target_column": "attack_cat",
+  "rf_bundle_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\models\\multiclass\\rf\\multiclass_rf_bundle.joblib",
+  "lgbm_bundle_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\models\\multiclass\\lgbm\\multiclass_lgbm_bundle.joblib",
+  "xgb_bundle_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\models\\multiclass\\xgboost\\multiclass_xgboost_bundle.joblib",
+  "summary_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\multiclass_recheck\\run_20260427_213702\\multiclass_recheck_summary.csv",
+  "classification_report_path": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\multiclass_recheck\\run_20260427_213702\\multiclass_classification_report.csv",
+  "evaluation_scope": "known_only_multiclass_test"
+}

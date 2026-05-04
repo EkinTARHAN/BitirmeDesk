@@ -1,0 +1,16 @@
+{
+  "package_output_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\cic_ton_iot\\package_20260420_211256",
+  "qa_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\notes\\cic_ton_iot_qa\\run_20260413_211802",
+  "prep_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\notes\\cic_ton_iot_prep\\run_20260413_214311",
+  "temporal_split_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\notes\\cic_ton_iot_temporal_split\\run_20260413_220600",
+  "stratified_report_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ton_iot_binary\\lgbm_baseline_20260413_214820",
+  "temporal_report_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ton_iot_binary\\lgbm_temporal_20260413_221152",
+  "attack_eval_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\tables\\cic_ton_iot_binary\\temporal_attack_family_eval_20260413_221643",
+  "generated_files": {
+    "main_summary_csv": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\cic_ton_iot\\package_20260420_211256\\cic_ton_iot_main_summary.csv",
+    "temporal_operating_points_csv": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\cic_ton_iot\\package_20260420_211256\\cic_ton_iot_temporal_operating_points.csv",
+    "seen_unseen_summary_csv": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\cic_ton_iot\\package_20260420_211256\\cic_ton_iot_seen_unseen_summary.csv",
+    "best_attack_family_csv": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\cic_ton_iot\\package_20260420_211256\\cic_ton_iot_best_val_f1_attack_family.csv",
+    "final_report_md": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\cic_ton_iot\\package_20260420_211256\\cic_ton_iot_final_report.md"
+  }
+}

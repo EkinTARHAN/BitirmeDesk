@@ -1,0 +1,10 @@
+{
+  "output_dir": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\project_master\\package_20260420_220435",
+  "source_cic_ton_iot_package": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\cic_ton_iot\\package_20260420_211256",
+  "generated_files": {
+    "binary_summary_csv": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\project_master\\package_20260420_220435\\project_master_binary_summary.csv",
+    "multiclass_summary_csv": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\project_master\\package_20260420_220435\\project_master_multiclass_summary.csv",
+    "official_decisions_csv": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\project_master\\package_20260420_220435\\project_official_decisions.csv",
+    "project_master_report_md": "C:\\Users\\user\\Desktop\\ids-xai-unsw\\reports\\final\\project_master\\package_20260420_220435\\project_master_report.md"
+  }
+}

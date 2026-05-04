@@ -1,0 +1,7 @@
+﻿project_component,official_choice,status,note
+UNSW binary,XGBoost Tuned v2,main,Official final binary model.
+UNSW binary,LightGBM Main,backup,Official binary backup model.
+UNSW multiclass,Random Forest,main,Official final attack-only multiclass model.
+UNSW multiclass,LightGBM,backup,Official multiclass backup model.
+CIC-IDS2017 benchmark line,LightGBM + file-based val/test + target-FPR,recommended,Working evaluation line after rejecting overly optimistic row-wise view.
+CIC-ToN-IoT benchmark line,LightGBM binary baseline + temporal seen/unseen analysis,packaged,Third independent benchmark packaged and ready for thesis use.

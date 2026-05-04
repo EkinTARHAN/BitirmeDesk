@@ -1,9 +1,9 @@
 paths:
-  binary_pipeline: models/binary/lgbm/binary_lgbm_pipeline.joblib
-  binary_summary: models/binary/lgbm/binary_lgbm_summary.json
+  binary_pipeline: models/binary/xgboost_tuned_v2/binary_xgboost_tuned_v2_best_pipeline.joblib
+  binary_summary: models/binary/xgboost_tuned_v2/binary_xgboost_tuned_v2_best_summary.json
 
-  multiclass_bundle: models/multiclass/lgbm/multiclass_lgbm_bundle.joblib
-  multiclass_summary: models/multiclass/lgbm/multiclass_lgbm_summary.json
+  multiclass_bundle: models/multiclass/rf/multiclass_rf_bundle.joblib
+  multiclass_summary: models/multiclass/rf/multiclass_rf_summary.json
 
   iforest_bundle: models/anomaly/iforest/iforest_bundle.joblib
   iforest_summary: models/anomaly/iforest/iforest_summary.json
@@ -18,16 +18,12 @@ data:
   drop_feature_cols: [label, attack_cat, is_unknown_target]
 
 thresholds:
-  # Demo için daha konservatif binary threshold (val hedefi).
-  # (Testte %1 tutmaması bir "distribution shift" bulgusu; sunumda anlatacağız.)
   binary_fpr_target: 0.005
+  binary_threshold_override: 0.94
   anomaly_fpr_target: 0.01
-
-  # Unknown gating için farklı conf seviyelerini tarayacağız
   multiclass_conf_mins: [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 
 evaluation:
-  # Değerlendirilecek unknown modları
   modes: ["anomaly_only", "mc_conf_only", "union_or", "hybrid_and"]
 
 outputs:
